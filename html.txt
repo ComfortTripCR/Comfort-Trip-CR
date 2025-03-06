@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turismo en Costa Rica</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ADD8E6; /* Fondo azul claro */
+            color: #003366; /* Texto azul oscuro */
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #002F5F; /* Azul profundo */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        section {
+            padding: 20px;
+        }
+        h2 {
+            color: #0077FF; /* Azul vibrante */
+        }
+        .tour-card {
+            border: 1px solid #003366;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: white;
+        }
+        .tour-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .whatsapp-btn {
+            background-color: #25D366; /* WhatsApp verde */
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>¡Descubre Costa Rica con Nosotros!</h1>
+</header>
+
+<section>
+    <h2>Bienvenidos a una experiencia única en Costa Rica</h2>
+    <p>¡Te invitamos a disfrutar de un destino lleno de aventuras, naturaleza y cultura! Ya sea que busques relajación, explorar la jungla tropical o vivir emociones extremas, tenemos el paquete perfecto para ti. ¡Déjanos encargarnos de todo y vive el paraíso costarricense sin preocupaciones!</p>
+
+    <h2>Our Tours / Nuestros Tours</h2>
+
+    <div class="tour-card">
+        <h3>Aventura en la Jungla</h3>
+        <img src="jungla.jpg" alt="Aventura en la Jungla">
+        <p>Explora los misterios de la selva tropical costarricense con este tour lleno de adrenalina. Incluye caminatas, tirolesa y avistamiento de animales salvajes en su hábitat natural.</p>
+    </div>
+
+    <div class="tour-card">
+        <h3>Relajación en las Playas del Pacífico</h3>
+        <img src="playa.jpg" alt="Relajación en la Playa">
+        <p>Sumérgete en la tranquilidad de nuestras playas paradisíacas. Este tour es ideal para quienes buscan descansar, disfrutar de masajes y relajarse en el agua cristalina.</p>
+    </div>
+
+    <div class="tour-card">
+        <h3>Aventura Extrema: Rafting y Trekking</h3>
+        <img src="rafting.jpg" alt="Rafting y Trekking">
+        <p>Vive la emoción al máximo con actividades como rafting en ríos caudalosos y trekking por montañas. Para los amantes de la acción y los desafíos.</p>
+    </div>
+
+    <p>Para reservas, llama al <strong>+506 6161-6995</strong> o haz clic en el siguiente enlace para chatear directamente en WhatsApp:</p>
+    <a href="https://wa.me/50661616995" class="whatsapp-btn">Reserva vía WhatsApp</a>
+</section>
+
+<footer>
+    <p>&copy; 2025 Turismo en Costa Rica. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
